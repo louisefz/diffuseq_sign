@@ -1,0 +1,149 @@
+{
+    "os": "Linux-6.1.85+-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-07-20T17:09:47.556413",
+    "startedAt": "2024-07-20T17:09:47.477335",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--checkpoint_path",
+        "diffusion_models/diffuseq_qqp_h128_lr0.0001_t2000_sqrt_lossaware_seed102_test-qqp20240720-17:09:04",
+        "--dataset",
+        "qqp",
+        "--data_dir",
+        "/content/DiffuSeq/datasets/sign2text",
+        "--vocab",
+        "bert",
+        "--use_plm_init",
+        "no",
+        "--lr",
+        "0.0001",
+        "--batch_size",
+        "2048",
+        "--microbatch",
+        "64",
+        "--diffusion_steps",
+        "2000",
+        "--noise_schedule",
+        "sqrt",
+        "--schedule_sampler",
+        "lossaware",
+        "--resume_checkpoint",
+        "none",
+        "--seq_len",
+        "128",
+        "--hidden_t_dim",
+        "128",
+        "--seed",
+        "102",
+        "--hidden_dim",
+        "128",
+        "--learning_steps",
+        "50000",
+        "--save_interval",
+        "10000",
+        "--config_name",
+        "bert-base-uncased",
+        "--notes",
+        "test-qqp20240720-17:09:04"
+    ],
+    "state": "running",
+    "program": "/content/DiffuSeq/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/Shark-NLP/DiffuSeq.git",
+        "commit": "f78945d79de5783a4329695c0adb1e11adde31bf"
+    },
+    "email": null,
+    "root": "/content/DiffuSeq",
+    "host": "561008376b64",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2200.1880000000006,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200.188,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.188,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.188,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.188,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.188,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.188,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.188,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.188,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.188,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.188,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.188,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.188,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 201.22513961791992,
+            "used": 27.63931655883789
+        }
+    },
+    "gpu": "NVIDIA L4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA L4",
+            "memory_total": 24152899584
+        }
+    ],
+    "memory": {
+        "total": 52.96144104003906
+    }
+}

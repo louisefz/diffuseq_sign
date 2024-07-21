@@ -1,0 +1,26 @@
+2024-07-20 17:09:47,478 INFO    MainThread:5426 [wandb_setup.py:_flush():76] Current SDK version is 0.17.5
+2024-07-20 17:09:47,478 INFO    MainThread:5426 [wandb_setup.py:_flush():76] Configure stats pid to 5426
+2024-07-20 17:09:47,478 INFO    MainThread:5426 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2024-07-20 17:09:47,478 INFO    MainThread:5426 [wandb_setup.py:_flush():76] Loading settings from /content/DiffuSeq/wandb/settings
+2024-07-20 17:09:47,478 INFO    MainThread:5426 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'mode': 'offline'}
+2024-07-20 17:09:47,479 INFO    MainThread:5426 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-20 17:09:47,479 INFO    MainThread:5426 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program_abspath': '/content/DiffuSeq/train.py', 'program': '/content/DiffuSeq/train.py'}
+2024-07-20 17:09:47,479 INFO    MainThread:5426 [wandb_init.py:_log_setup():529] Logging user logs to /content/DiffuSeq/wandb/offline-run-20240720_170947-r6p6ez1i/logs/debug.log
+2024-07-20 17:09:47,479 INFO    MainThread:5426 [wandb_init.py:_log_setup():530] Logging internal logs to /content/DiffuSeq/wandb/offline-run-20240720_170947-r6p6ez1i/logs/debug-internal.log
+2024-07-20 17:09:47,479 INFO    MainThread:5426 [wandb_init.py:init():569] calling init triggers
+2024-07-20 17:09:47,479 INFO    MainThread:5426 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {}
+2024-07-20 17:09:47,479 INFO    MainThread:5426 [wandb_init.py:init():619] starting backend
+2024-07-20 17:09:47,479 INFO    MainThread:5426 [wandb_init.py:init():623] setting up manager
+2024-07-20 17:09:47,480 INFO    MainThread:5426 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-20 17:09:47,481 INFO    MainThread:5426 [wandb_init.py:init():631] backend started and connected
+2024-07-20 17:09:47,485 INFO    MainThread:5426 [wandb_init.py:init():720] updated telemetry
+2024-07-20 17:09:47,490 INFO    MainThread:5426 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-07-20 17:09:47,495 INFO    MainThread:5426 [wandb_init.py:init():804] starting run threads in backend
+2024-07-20 17:09:47,943 INFO    MainThread:5426 [wandb_run.py:_console_start():2413] atexit reg
+2024-07-20 17:09:47,943 INFO    MainThread:5426 [wandb_run.py:_redirect():2255] redirect: wrap_raw
+2024-07-20 17:09:47,943 INFO    MainThread:5426 [wandb_run.py:_redirect():2320] Wrapping output streams.
+2024-07-20 17:09:47,943 INFO    MainThread:5426 [wandb_run.py:_redirect():2345] Redirects installed.
+2024-07-20 17:09:47,945 INFO    MainThread:5426 [wandb_init.py:init():847] run started, returning control to user process
+2024-07-20 17:09:47,945 INFO    MainThread:5426 [wandb_run.py:_config_callback():1382] config_cb None None {'lr': 0.0001, 'batch_size': 2048, 'microbatch': 64, 'learning_steps': 50000, 'log_interval': 20, 'save_interval': 10000, 'eval_interval': 1000, 'ema_rate': '0.9999', 'resume_checkpoint': 'none', 'schedule_sampler': 'lossaware', 'diffusion_steps': 2000, 'noise_schedule': 'sqrt', 'timestep_respacing': '', 'vocab': 'bert', 'use_plm_init': 'no', 'vocab_size': 30522, 'config_name': 'bert-base-uncased', 'notes': 'test-qqp20240720-17:09:04', 'data_dir': '/content/DiffuSeq/datasets/sign2text', 'dataset': 'qqp', 'checkpoint_path': 'diffusion_models/diffuseq_qqp_h128_lr0.0001_t2000_sqrt_lossaware_seed102_test-qqp20240720-17:09:04', 'seq_len': 128, 'hidden_t_dim': 128, 'hidden_dim': 128, 'dropout': 0.1, 'use_fp16': False, 'fp16_scale_growth': 0.001, 'seed': 102, 'gradient_clipping': -1.0, 'weight_decay': 0.0, 'learn_sigma': False, 'use_kl': False, 'predict_xstart': True, 'rescale_timesteps': True, 'rescale_learned_sigmas': False, 'sigma_small': False, 'emb_scale_factor': 1.0}
+2024-07-21 14:29:29,670 WARNING MsgRouterThr:5426 [router.py:message_loop():77] message_loop has been closed
